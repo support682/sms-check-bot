@@ -1,0 +1,11 @@
+{
+  "name": "sms-check-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "openai": "^4.0.0"
+  }
+}
