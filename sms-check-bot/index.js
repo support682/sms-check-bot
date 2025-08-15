@@ -38,7 +38,7 @@ bot.on('message', async (msg) => {
 
         let aiMessage = aiResponse.output_text || "Не вдалося отримати відповідь від AI.";
 
-        let finalMessage = "✅ Результат перевірки:
+let finalMessage = "\u2705 Результат перевірки:";
 
 ";
         if (ruleWarnings.length > 0) {
